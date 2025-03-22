@@ -102,7 +102,7 @@ class MCPClient:
             messages.append({
                 "role": "tool",
                 "content": result.content[0].text,
-                "tool_call_id": result.id,
+                "tool_call_id": tool_calls.id,
             })
 
             # 将上面的结果再次给大模型
