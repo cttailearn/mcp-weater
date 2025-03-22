@@ -8,7 +8,7 @@ mcp = FastMCP("WeatherServer")
 
 # 天气查询api配置
 WEATHER_API_URL = "https://restapi.amap.com/v3/weather/weatherInfo?"
-WEATHER_API_KEY = "16f6ef45d6a0565d84ee44e9a0a67e2e"
+WEATHER_API_KEY = "高德天气api key"
 USER_AGENT = "weather-app/1.0"
 
 async def get_weather_data(city: str) -> dict[str, Any] | None:
